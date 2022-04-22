@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  height: 88px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+}
+
+.iconFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  border: 1px solid #eaecee;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+}

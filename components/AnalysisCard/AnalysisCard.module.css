@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  width: 360px;
+  height: 159px;
+  background: #ffffff;
+  border: 1px solid #eaecee;
+  border-radius: 12px;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #373f47;
+}
+
+.value {
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #242d35;
+}

@@ -114,3 +114,21 @@ export const MOCK_DATA = [
     apart: "Villa",
   },
 ];
+
+export const ANALYSIS_DATA = [
+  {
+    title: "Todays Sales",
+    value: 2456,
+    trend: "increase",
+  },
+  {
+    title: "New Products",
+    value: 221,
+    trend: "average",
+  },
+  {
+    title: "Inventory",
+    value: 1425,
+    trend: "decrease",
+  },
+];

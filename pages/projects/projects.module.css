@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.analysis {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.favorite {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.favoriteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.favoriteTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #373f47;
+}
+
+.searchBox {
+  position: relative;
+  display: flex;
+  width: 239px;
+  height: 40px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eaecee;
+  border-radius: 32px;
+  padding: 12px;
+}
+
+.search {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
