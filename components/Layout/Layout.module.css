@@ -6,4 +6,5 @@
 .main {
   width: calc(100vw - 240px);
   overflow-y: auto;
+  padding: 30px 36px;
 }

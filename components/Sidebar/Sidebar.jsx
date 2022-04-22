@@ -4,66 +4,7 @@ import { useRouter } from "next/router";
 import cn from "classnames";
 import MenuItem from "./MenuItem";
 import s from "./Sidebar.module.css";
-
-const navs = [
-  {
-    title: "Dashboard",
-    link: "/",
-    iconUrl: "/assets/images/dashboard.svg",
-    activeIconUrl: "/assets/images/dashboard-active.svg",
-  },
-  {
-    title: "Available units",
-    link: "/available-units",
-    iconUrl: "/assets/images/available-units.svg",
-    activeIconUrl: "/assets/images/available-units-active.svg",
-  },
-  {
-    title: "Invoices",
-    link: "/invoices",
-    iconUrl: "/assets/images/invoices.svg",
-    activeIconUrl: "/assets/images/invoices-active.svg",
-  },
-  {
-    title: "Projects",
-    link: "/projects",
-    iconUrl: "/assets/images/projects.svg",
-    activeIconUrl: "/assets/images/projects-active.svg",
-  },
-  {
-    title: "Social media",
-    link: "/social-media",
-    iconUrl: "/assets/images/social-media.svg",
-    activeIconUrl: "/assets/images/social-media-active.svg",
-  },
-  {
-    title: "Integrations",
-    link: "/integrations",
-    iconUrl: "/assets/images/integrations.svg",
-    activeIconUrl: "/assets/images/integrations-active.svg",
-  },
-  {
-    title: "Documentations",
-    link: "/documentations",
-    iconUrl: "/assets/images/documentations.svg",
-    activeIconUrl: "/assets/images/documentations-active.svg",
-  },
-];
-
-const otherNavs = [
-  {
-    title: "Settings",
-    link: "/settings",
-    iconUrl: "/assets/images/settings.svg",
-    activeIconUrl: "/assets/images/settings-active.svg",
-  },
-  {
-    title: "Help center",
-    link: "/help-center",
-    iconUrl: "/assets/images/help-center.svg",
-    activeIconUrl: "/assets/images/help-center-active.svg",
-  },
-];
+import { navs, otherNavs } from "../../helper/const";
 
 const Sidebar = () => {
   const { asPath } = useRouter();

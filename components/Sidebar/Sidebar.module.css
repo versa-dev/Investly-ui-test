@@ -32,6 +32,7 @@
 
 .activeMenuItem {
   background: #f7f7fb;
+  border-right: solid 4px #4040f2;
 }
 
 .footer {
