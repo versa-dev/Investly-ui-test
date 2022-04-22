@@ -1,0 +1,9 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.main {
+  width: calc(100vw - 240px);
+  overflow-y: auto;
+}
